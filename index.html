@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
+	<!--Links the css page to this.-->
+	<link rel = "stylesheet" href = "style.css">
 	<!--This is for icons from font awesome.-->
 	<script src="https://kit.fontawesome.com/adca81fafe.js" crossorigin="anonymous"></script>
 	<!--Github Icon from Font Awesome.-->
-	<script src = https://fontawesome.com/icons/github-square?style=brands crossorigion = "anonymous"> </script>
+	<script src = "https://fontawesome.com/icons/github-square?style=brands" crossorigion= "anonymous"> </script>
 	<!--Below is called a Favicon, Little picture in window.-->
 	<link rel="icon" type="image/png" href = "linkedin_photo_face.png" />
 	<!--The keyboard input type.-->
@@ -12,30 +14,36 @@
 	<!--The title that shoes on the tab of the browser.-->
 	<title>Michael Dick's Webpage</title>
 </head>
+<!--New-->
+<div class = "content">
 <!--The script for picture-->
 <figure>
-	<img src="linkedin_photo.png" width = "25%" alt = "Michael Dick">
+	<img src="linkedin_photo.png" alt = "Michael Dick" class = "center">
 </figure>
 <!--The heading to my webpage right now.-->
 <h1> Michael Dick </h1>
-<body>
+	<!--Nav bar lets you put multiple hyperlinsk together.-->
+	<div class = "nava">
 	<nav>
 		<!--Resume; This link is local.-->
 	<a href = "Resume.pdf" target ="_blank">Resume</a>
 		<!--The hyperlinks to contant my personal email.-->
 	<a href="mailto:michaeldick000@gmail.com?subject=Contact">Email Me</a>
 	</nav>
-<div id = "Bio">
+</div>
+<div class = "bio">
 	<h3>Bio:</h3>
 	<p>Welcome to my webpage! Currently I am a student at the University of Michigan studying computer science. Activities outside of my studying include learning more programming languages, applicable mathematics, and hiking. As a student my main focus in my studies is artificial intelligence and software engineering.
 	</p>
 </div>
-	<p> 
+		<div class = "outside_links">
 		<!--The hyperlinks to my LinkedIn.-->
 		<nav>
 <a href="https://www.linkedin.com/in/michaeldi1996/" target = "_blank" aria-label="LinkedIn"><i class="fab fa-linkedin fa-3x"></i></a>
 <a href = "https://github.com/michaeld96" target = "_blank" aria-label = "Github"> <i class="fab fa-github-square fa-3x"></i></a>
 	</nav>
-</p>
-</body>
+</div>
+</div>
+
+<!--End of New-->
 </html>
