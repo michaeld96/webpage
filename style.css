@@ -18,23 +18,35 @@ h1
 p
 {
 	text-align: center;
-	width: 1000px;
+	width: 95%;
 }
 h3
 {
 	text-align: center;
 }
-
-.content
-{
-	max-width: 1000px;
-	margin: auto;
-}
-.nava
+/*The class and then having the keyword for html changes all of the anchors in that class.*/
+.nava a
 {
 	text-align: center;
+	box-sizing: border-box;
+	width: 24%;
+	display: inline-block;
+	border-style: outset;
+	padding: 1px;
+	margin: 0 auto;
+	
+
 }
 .outside_links
 {
 	text-align: center;
 }
+.bio
+{
+	
+}
+/*Setting the color of the links that were visited.*/
+a {color:#000000;}         /* Unvisited link  */
+a:visited {color:##C0C0C0;} /* Visited link    */
+a:hover {color:#000000;}   /* Mouse over link */
+a:active {color:#000000;}  /* Selected link   */
